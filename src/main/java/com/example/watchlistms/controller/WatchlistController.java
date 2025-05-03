@@ -21,7 +21,7 @@ public class WatchlistController {
 
     @PostMapping("/watchlist")
     public ResponseEntity<Object> addToWatchlist(@RequestBody WatchlistRequest request) {
-        ErrorResponse errorResponse = watchListValidation.validateRequestParam(request.getUserId(), request.getMovieId());
+//        ErrorResponse errorResponse = watchListValidation.validateRequestParam(request.getUserId(), request.getMovieId());
 //        if(!errorResponse.getMessage().isEmpty())
 //            return ResponseEntity.badRequest();
 
